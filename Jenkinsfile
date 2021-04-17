@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'hehua01'
-    }
-
-  }
+  agent any
   stages {
     stage('step01') {
       agent any
